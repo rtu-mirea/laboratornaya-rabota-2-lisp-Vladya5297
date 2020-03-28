@@ -1,0 +1,18 @@
+(defun search (N list)
+   (cond ((eq list nil) "НЕ НАЙДЕН!")
+((eq (car list) N) "НАЙДЕН!")
+(t (search N (cdr list)))
+   )
+)
+(defun input ()
+    (print "Список:")
+    (print LIST)
+    (print "Введите искомый элемент") 
+    (set 'N (read))
+    (print "Искомый элемент:") 
+    (search N LIST)
+   
+    
+)
+(set 'LIST '(1337 228 42 5297 148 80085 1))
+(input)
