@@ -49,7 +49,7 @@
 )
 
 
-(defconstant list (list 7 7 7 7 0 1 0 2 2 2 0 3 3 3 0 0 0 9))
+(defconstant L (list 7 7 7 7 0 1 0 2 2 2 0 3 3 3 0 0 0 9))
 
-(compress list) 
-(decompress (compress list)) 
+(compress L) 
+(decompress (compress L)) 
